@@ -2,18 +2,72 @@
 <html>
     <head>
         <title>FKNA förstasida</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-" />
+        <script src="https://kit.fontawesome.com/3b66b261a3.js" crossorigin="anonymous"></script>
     </head>
     <body>
+        <div class="menu-container">
+            <div class="menubar">
+                <img src="img/nby goif.png" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">Startsida</a></li>
+                        <li><a href="./medlemmar.html">Medlemmar</a></li>
+                        <li><a href="./tävling.html">T&auml;vlingar</a></li>
+                    </ul>
+                </nav>
+                <img src="img/meny.png" class="menu-icon">
+            </div>
+        </div>
         <h1>FKNA Homepage</h1><br />
         <h2>Om FKNA:</h2>
         <p>Ett par grabbar från karlskrona som skapat en platform för att träffas och spela tillsamans.</p>
-        <p>För att se kommande t&auml;vlingar: </p> <a href="tävling.html">tryck här</a>
-        <p>För att se medlemar i FKNA:</p> <a href="medlemmar.html">tryck här</a>
+
+        <section>
+            <div class="container1">
+                <div action="#" method="get">
+                        <legend>Ansök till FKNA</legend>
+                        <div class="input">
+                             <input placeholder="First Name" type="text"/><br>
+                        </div>
+                        <div class="input">
+                            <input placeholder="Last Name" type="text"/>
+                        </div>
+                        <div class="input"> 
+                            <input placeholder="Email"type="email" name="email">
+                        </div>
+                        <div class="input">
+                            <input placeholder="Age"type="number" name="age">
+                        </div>
+                        <div class="input">
+                            <input placeholder="Phonenumber" type="number"> 
+                        </div>
+                        <div class="input">
+                            <p>Gender:</p>
+                           <input type="checkbox" name="Male" value="Male" />Male<br />
+                           <input type="checkbox" name="Female" value="Female" />Female<br />
+                        </div>
+                        <div class="input">
+                            <p>Input:</p>
+                            <input type="radio" name="Keybord" />Keybord<br />
+                            <input type="radio" name="Kontroll" />Kontroll<br />
+                            <br />
+                        </div>
+                        <div class="input">
+                            <legend>About you:</legend>
+                            <textarea></textarea>
+                        </div>
+                    <button class="knapp1" type="submit">submit </button>
+                    <button class="knapp2" type="reset">reset</button> </button>
+                </form>
+            </div>
+                </section>
         
              <footer>
                 <h6>FKNA AB</h6>
                 <h6>tel: 1233211233</h6>
-                <h6>n&auml;ttraby 370 24</h6>
+                <h6>N&auml;ttraby 370 24</h6>
             </footer>
     </body>
 </html>
